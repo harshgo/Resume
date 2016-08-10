@@ -65,7 +65,7 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Harsh}{Goyal}{ \urlstyle{same}\href{http://hgoyal.github.io}{harshgoyal.github.io}| \href{http://fb.co/hgoyal.dps}{fb.co/hgoyal.dps}\\
+\namesection{Harsh}{Goyal}{ \urlstyle{same}\href{http://hgoyal.github.io}{hgoyal.github.io}| \href{http://fb.co/hgoyal.dps}{fb.co/hgoyal.dps}\\
 \href{mailto:harshgoyal@gmail.com}{harshgoyal@gmail.com} | 214.609.0798 | \href{mailto:hgoyal@cs.utexas.edu}{hgoyal@cs.utexas.edu}
 }
 
@@ -77,81 +77,52 @@
 
 \begin{minipage}[t]{0.33\textwidth} 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     EDUCATION
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Education} 
-
-\subsection{Cornell University}
-\descript{MEng in Computer Science}
-\location{Dec 2014 | Ithaca, NY}
-\sectionsep
-
-\subsection{Cornell University}
-\descript{BS in Computer Science}
-\location{May 2014 | Ithaca, NY}
-College of Engineering \\
-Magna Cum Laude\\
-\location{ Cum. GPA: 3.83 / 4.0 \\
-Major GPA: 3.9 / 4.0}
-\sectionsep
-
-\subsection{La Martiniere for Boys}
-\location{Grad. May 2011|  Kolkata, India}
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     LINKS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Links} 
-Facebook:// \href{https://facebook/dd}{\bf dd} \\
-Github:// \href{https://github.com/deedydas}{\bf deedydas} \\
-LinkedIn://  \href{https://www.linkedin.com/in/debarghyadas}{\bf debarghyadas} \\
-YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\bf DeedyDash007} \\
-Twitter://  \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
-Quora://  \href{https://www.quora.com/Debarghya-Das}{\bf Debarghya-Das}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     COURSEWORK
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Coursework}
-\subsection{Graduate}
-Advanced Machine Learning \\
-Open Source Software Engineering \\
-Advanced Interactive Graphics \\
-Compilers + Practicum \\
-Cloud Computing \\
-Evolutionary Computation \\
-Defending Computer Networks \\
-Machine Learning \\
-\sectionsep
-
-\subsection{Undergraduate}
-Information Retrieval \\
-Operating Systems \\
-Artificial Intelligence + Practicum \\
-Functional Programming \\
-Computer Graphics + Practicum \\
-{\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst 2x) }}} \\
-Unix Tools and Scripting \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Skills}
+\subsection{Machine Learning}
+Led development of \textbf{ML models} at previous internship. \\
+Completed \textbf{Andrew Ng's Machine Learning course} on Coursera \\
 \subsection{Programming}
-\location{Over 5000 lines:}
-Java \textbullet{}   Shell \textbullet{} Python \textbullet{} Javascript \\
-OCaml \textbullet{} Matlab \textbullet{} Rails \textbullet{} \LaTeX\ \\ 
-\location{Over 1000 lines:}
-C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \\
-\location{Familiar:}
-AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
+\location{Experienced with:}
+Java \textbullet{}   Python \textbullet{} C \\
+\location{Exposure to:}
+Matlab \textbullet{} C++ \textbullet{} x86-64 and PowerPC Assembly \textbullet{} \LaTeX\ \\
 \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards}
+\location{Ajit Ramchandani Endowed Scholarship}
+\textbf{Recipient} of scholarship awarded by UT Austin College of Natural Sciences to International Students on merit basis. \\
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\location{Tech Hunt at IIT Delhi}
+\textbf{Winner among 6000 participants} for making a keyboard which can be controlled with your foot. \\
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\location{Gold Medal}
+\textbf{Recipient} of award given by high school for 6 consecutive years of academic excellence.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Facebook:// \href{https://facebook/hgoyal.dps}{\bf hgoyal.dps} \\
+Github:// \href{https://github.com/harshgo}{\bf harshgo} \\
+LinkedIn://  \href{https://www.linkedin.com/in/harsh-goyal}{\bf harsh-goyal} \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Languages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Languages}
+English, Hindi, Marwari \\
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -174,9 +145,9 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 \location{June 2016 – May 2016 | Austin, TX}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Developed model to predict whether a TrueCar user would buy a car using past data, from ground up
-\item Implemented machine best practices and worked with popular Data Science Python libraries
-\item Worked with a team situated in multiple cities
+\item Led development of model from ground up to predict whether a TrueCar user would buy a car using past data on user behavior, demographics etc.
+\item Implemented machine best practices and worked with popular Data Science Python libraries.
+\item Delivered a talk to introduce developers to Machine Learning and Data Science.
 \end{tightemize}
 \sectionsep
 
@@ -221,9 +192,10 @@ President and founder of \textbf{Engima Quiz Society} and Head of Programming in
 
 
 \section{Personal Projects} 
-\runsubsection{GenTris}
+
+\runsubsection{Webcrawler}
 \location{}
-Implemented Tetris in Java along with a genetic algorithm to play it.
+Built a program which is able to index webpages and can return relevant results based on queries
 \sectionsep
 
 \runsubsection{Boggle Word Finder}
@@ -231,11 +203,24 @@ Implemented Tetris in Java along with a genetic algorithm to play it.
 Wrote a program to find words in a grid of letters. Came up with algorithm which provided significant speed improvements.
 \sectionsep
 
-\runsubsection{Webcrawler}
+\runsubsection{Neuro-Evolution Tanks}
 \location{}
-Wrote a program to analyse webpages saved locally and be able to return results when queried.
+Programmed a function to neuro evi
 \sectionsep
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Community Involvement
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Community Involvement} 
+\begin{tabular}{rll}
+TSSA             & Elected Board member of the Turing Scholars Student Association\\
+UTCS Ambassadors & Official UT Computer Science student ambassador \\
+MLDS             & Officer for Machine Learning and Data Science student organization \\
+UT RHC           & Elected Member of the UT Residence Hall Council \\
+\end{tabular}
 \nocite{*}
 
 \end{minipage} 
