@@ -78,20 +78,6 @@
 \begin{minipage}[t]{0.33\textwidth} 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     SKILLS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Skills}
-\subsection{Machine Learning}
-Led development of \textbf{ML models} at previous internship. \\
-Completed \textbf{Andrew Ng's Machine Learning course} on Coursera \\
-\subsection{Programming}
-\location{Experienced with:}
-Java \textbullet{}   Python \textbullet{} C \\
-\location{Exposure to:}
-Matlab \textbullet{} C++ \textbullet{} x86-64 and PowerPC Assembly \textbullet{} \LaTeX\ \\
-\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     AWARDS
@@ -106,6 +92,23 @@ Matlab \textbullet{} C++ \textbullet{} x86-64 and PowerPC Assembly \textbullet{}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \location{Gold Medal}
 \textbf{Recipient} of award given by high school for 6 consecutive years of academic excellence.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\location{Experienced with:}
+Java \textbullet{}   Python \textbullet{} C \\
+\location{Exposure to:}
+Matlab \textbullet{} C++ \textbullet{} \\
+x86-64 and PowerPC Assembly \textbullet{} \LaTeX\ \\
+\subsection{Machine Learning}
+scikit-learn\
+ \textbullet{} Pandas \\ \textbullet{} Matplotlib \textbullet{} Seaborn
+\sectionsep
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     LINKS
@@ -135,6 +138,33 @@ English, Hindi, Marwari \\
 \begin{minipage}[t]{0.66\textwidth} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education}
+\runsubsection{University of Texas at Austin}
+\descript{| C.S.- Turing Scholar}
+\location{Aug 2015 - Present| Austin, TX}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item GPA: 3.92
+\item Relavent Past Honors Coursework (H=Hons.):
+
+\textbf{Data Structures H., Computer Architecture H., Computational Intelligence I, Linear Algebra H., Vector Calculus H., Discrete Math H.}
+\item Relavent Current Coursework:
+
+\textbf{Operating Systems H., Computational Intelligence II, Algebraic Structures}
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Delhi Public School, Noida}
+\location{Mar 2011 – Mar 2015 | Delhi, India}
+President and founder of \textbf{Engima Quiz Society} and Head of Programming in \textbf{eSpice Tech Society}
+\sectionsep
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -142,11 +172,11 @@ English, Hindi, Marwari \\
 
 \runsubsection{TrueCar, Inc.}
 \descript{| Machine Learning Intern }
-\location{June 2016 – May 2016 | Austin, TX}
+\location{June 2016 – August 2016 | Austin, TX}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Led development of model from ground up to predict whether a TrueCar user would buy a car using past data on user behavior, demographics etc.
-\item Implemented machine best practices and worked with popular Data Science Python libraries.
+\item Led development of model from ground up to predict whether a TrueCar user would buy a car using past data -- one of the most requested customer features.
+\item Implemented machine learning best practices and worked with popular Data Science Python libraries.
 \item Delivered a talk to introduce developers to Machine Learning and Data Science.
 \end{tightemize}
 \sectionsep
@@ -160,32 +190,6 @@ English, Hindi, Marwari \\
 \end{tightemize}
 \sectionsep
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Education
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Education}
-\runsubsection{University of Texas at Austin}
-\descript{| C.S.- Turing Scholar}
-\location{Aug 2015 - Present| Austin, TX}
-\begin{tightemize}
-\item Current Coursework 
-\item Relavent Past Honors Coursework (H=Hons.):
-
-\textbf{Data Structures H., Computer Architecture H., Computational Intelligence I, Linear Algebra H., Vector Calculus H., Discrete Math H.}
-\item Relavent Current Coursework:
-
-\textbf{Operating Systems, Programming Languages, Computational Intelligence II}
-\item GPA: 3.86
-\end{tightemize}
-\sectionsep
-
-\runsubsection{Delhi Public School, Noida}
-\location{Mar 2011 – Mar 2015 | Delhi, India}
-President and founder of \textbf{Engima Quiz Society} and Head of Programming in \textbf{eSpice Tech Society}
-\sectionsep
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Personal Projects
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -193,19 +197,19 @@ President and founder of \textbf{Engima Quiz Society} and Head of Programming in
 
 \section{Personal Projects} 
 
-\runsubsection{Webcrawler}
-\location{}
-Built a program which is able to index webpages and can return relevant results based on queries
-\sectionsep
-
-\runsubsection{Boggle Word Finder}
-\location{}
-Wrote a program to find words in a grid of letters. Came up with algorithm which provided significant speed improvements.
-\sectionsep
-
 \runsubsection{Neuro-Evolution Tanks}
 \location{}
-Programmed a function to neuro evi
+Worked in a team to build a program in Python which trains neural networks using genetic algorithms for tanks on a gameboard which collect mines.
+\sectionsep
+
+\runsubsection{Webcrawler}
+\location{}
+Built a program using testing-based development which can crawl through websites, analyze the underlying HTML and return search results based on queries.
+\sectionsep
+
+\runsubsection{GenTris}
+\location{}
+Programmed a playable Tetris game. Also built a program which can play the game using Genetic Algorithms.
 \sectionsep
 
 
@@ -217,8 +221,8 @@ Programmed a function to neuro evi
 \section{Community Involvement} 
 \begin{tabular}{rll}
 TSSA             & Elected Board member of the Turing Scholars Student Association\\
-UTCS Ambassadors & Official UT Computer Science student ambassador \\
 MLDS             & Officer for Machine Learning and Data Science student organization \\
+UTCS Ambassadors & Official UT Computer Science student ambassador \\
 UT RHC           & Elected Member of the UT Residence Hall Council \\
 \end{tabular}
 \nocite{*}
