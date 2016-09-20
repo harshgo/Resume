@@ -55,13 +55,6 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%     LAST UPDATED DATE
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\lastupdated
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -103,7 +96,8 @@
 Java \textbullet{}   Python \textbullet{} C \\
 \location{Exposure to:}
 Matlab \textbullet{} C++ \textbullet{} \\
-x86-64 and PowerPC Assembly \textbullet{} \LaTeX\ \\
+Visual Baic \textbullet{} \LaTeX\ \\
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \subsection{Machine Learning}
 scikit-learn\
  \textbullet{} Pandas \\ \textbullet{} Matplotlib \textbullet{} Seaborn
@@ -148,7 +142,7 @@ English, Hindi, Marwari \\
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
 \item GPA: 3.92
-\item Relavent Past Honors Coursework (H=Hons.):
+\item Relevent Past Coursework (H=Hons.):
 
 \textbf{Data Structures H., Computer Architecture H., Computational Intelligence I, Linear Algebra H., Vector Calculus H., Discrete Math H.}
 \item Relavent Current Coursework:
@@ -173,10 +167,9 @@ President and founder of \textbf{Engima Quiz Society} and Head of Programming in
 \runsubsection{TrueCar, Inc.}
 \descript{| Machine Learning Intern }
 \location{June 2016 – August 2016 | Austin, TX}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Led development of model from ground up to predict whether a TrueCar user would buy a car using past data -- one of the most requested customer features.
-\item Implemented machine learning best practices and worked with popular Data Science Python libraries.
+\item Led development on Machine Learning pipeline using AdaBoost to predict how likely it is that a Truecar user will buy a car- one of the most requested customer requests.
+\item Interacted with Big Data technologies like Hive to get and filter data.
 \item Delivered a talk to introduce developers to Machine Learning and Data Science.
 \end{tightemize}
 \sectionsep
@@ -186,7 +179,7 @@ President and founder of \textbf{Engima Quiz Society} and Head of Programming in
 \location{March 2014 – March 2015 | Delhi, India}
 \begin{tightemize}
 \item Taught 60 students in 12-30 age bracket.
-\item Started with typing, moved to internet usage and ended with Java programming
+\item Started with teaching typing, moved on to internet usage and finished with programming in Java
 \end{tightemize}
 \sectionsep
 
@@ -199,17 +192,17 @@ President and founder of \textbf{Engima Quiz Society} and Head of Programming in
 
 \runsubsection{Neuro-Evolution Tanks}
 \location{}
-Worked in a team to build a program in Python which trains neural networks using genetic algorithms for tanks on a gameboard which collect mines.
+Used genetic algorithms to train neural networks for in-game agents which collect mines on a gameboard.
 \sectionsep
 
 \runsubsection{Webcrawler}
 \location{}
-Built a program using testing-based development which can crawl through websites, analyze the underlying HTML and return search results based on queries.
+Programmed a Java application which crawls through a Web, analyzes the HTML data, and can act like a search engine over it. Built a parser for queries entered by the user.
 \sectionsep
 
 \runsubsection{GenTris}
 \location{}
-Programmed a playable Tetris game. Also built a program which can play the game using Genetic Algorithms.
+Used Genetic algorithms is Java to create a program which is able to play Tetris.
 \sectionsep
 
 
@@ -220,10 +213,16 @@ Programmed a playable Tetris game. Also built a program which can play the game 
 
 \section{Community Involvement} 
 \begin{tabular}{rll}
-TSSA             & Elected Board member of the Turing Scholars Student Association\\
-MLDS             & Officer for Machine Learning and Data Science student organization \\
-UTCS Ambassadors & Official UT Computer Science student ambassador \\
-UT RHC           & Elected Member of the UT Residence Hall Council \\
+Machine Learning and Data Science             &  Officer. Created teaching material for and taught \\
+\vspace{1 mm}
+                                              &  Machine Learning. Organized Kaggle competitions.  \\
+Turing Scholars Student Association           &  Elected official. Organized 10+ events for \\
+\vspace{1 mm}
+                                              &  Turing Scholars Students. \\
+UT Computer Science Ambassador                &  Appointed by UT Computer Science department as \\
+\vspace{1 mm}
+                                              &  student ambassador. \\
+UT RHC                                        &  Elected officer for Residence Hall Council \\
 \end{tabular}
 \nocite{*}
 
