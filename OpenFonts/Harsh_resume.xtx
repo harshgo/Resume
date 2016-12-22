@@ -58,8 +58,7 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Harsh}{Goyal}{ \urlstyle{same}\href{http://hgoyal.github.io}{hgoyal.github.io}| \href{http://fb.co/hgoyal.dps}{fb.co/hgoyal.dps}\\
-\href{mailto:harshgoyal@gmail.com}{harshgoyal@gmail.com} | 214.609.0798 | \href{mailto:hgoyal@cs.utexas.edu}{hgoyal@cs.utexas.edu}
+\namesection{Harsh}{Goyal}{\href{mailto:harshgoyal@gmail.com}{harshgoyal@gmail.com} | 214.609.0798 | \href{mailto:hgoyal@cs.utexas.edu}{hgoyal@cs.utexas.edu}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -71,6 +70,22 @@
 \begin{minipage}[t]{0.33\textwidth} 
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\location{Experienced with:}
+Java \textbullet{}   Python \textbullet{} C \\
+\location{Exposure to:}
+C++ \textbullet{} Matlab \textbullet{} \\
+ Verilog  \textbullet{} \LaTeX\ \\
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\subsection{Machine Learning}
+Scikit-Learn\
+ \textbullet{} Pandas \textbullet{} \\ Matplotlib \textbullet{} Seaborn
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     AWARDS
@@ -83,25 +98,28 @@
 \location{Tech Hunt at IIT Delhi}
 \textbf{Winner among 6000 participants} for making a keyboard which can be controlled with your foot. \\
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
-\location{Gold Medal}
+\location{Academic Gold Medal}
 \textbf{Recipient} of award given by high school for 6 consecutive years of academic excellence.
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     SKILLS
+%     Miscellaneous
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Skills}
-\subsection{Programming}
-\location{Experienced with:}
-Java \textbullet{}   Python \textbullet{} C \\
-\location{Exposure to:}
-Matlab \textbullet{} C++ \textbullet{} \\
-Visual Baic \textbullet{} \LaTeX\ \\
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
-\subsection{Machine Learning}
-scikit-learn\
- \textbullet{} Pandas \\ \textbullet{} Matplotlib \textbullet{} Seaborn
-\sectionsep
+\section{Misc. Projects}
+\textbf{Current Project} Converting video of chess game to textual chess notation \\
+\vspace{1 mm}
+\textbf{Pipelined processor} in Verilog \\
+\vspace{1 mm}
+\textbf{Cooperative Threads} on Multiprocessor Systems \\
+\vspace{1 mm}
+\textbf{AI for Tetris} with Genetic Algorithms \\
+\vspace{1 mm}
+\textbf{Sketch Filter} for Photos \\
+\vspace{1 mm}
+\textbf{Markov chains} for Text \\
+\vspace{1 mm}
+\textbf{Word finder} for Boggle \\
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -137,25 +155,19 @@ English, Hindi, Marwari \\
 
 \section{Education}
 \runsubsection{University of Texas at Austin}
-\descript{| C.S.- Turing Scholar}
-\location{Aug 2015 - Present| Austin, TX}
+\descript{| BS C.S.- Turing Scholar}
+\location{Aug 2015 - Present | Austin, TX}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item GPA: 3.92
-\item Relevent Past Coursework (H=Hons.):
+\item GPA— Departmental: 3.92; Overall: 3.86
+\item Relevant Past Coursework (H=Honors):
 
 \textbf{Data Structures H., Computer Architecture H., Computational Intelligence I, Linear Algebra H., Vector Calculus H., Discrete Math H.}
-\item Relavent Current Coursework:
+\item Relevant Current Coursework:
 
 \textbf{Operating Systems H., Computational Intelligence II, Algebraic Structures}
 \end{tightemize}
 \sectionsep
-
-\runsubsection{Delhi Public School, Noida}
-\location{Mar 2011 – Mar 2015 | Delhi, India}
-President and founder of \textbf{Engima Quiz Society} and Head of Programming in \textbf{eSpice Tech Society}
-\sectionsep
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -168,8 +180,8 @@ President and founder of \textbf{Engima Quiz Society} and Head of Programming in
 \descript{| Machine Learning Intern }
 \location{June 2016 – August 2016 | Austin, TX}
 \begin{tightemize}
-\item Led development on Machine Learning pipeline using AdaBoost to predict how likely it is that a Truecar user will buy a car- one of the most requested customer requests.
-\item Interacted with Big Data technologies like Hive to get and filter data.
+\item Led development on Machine Learning pipeline using AdaBoost to predict the probability that a TrueCar user will buy a car- one of the most requested customer features.
+\item Employed Big Data technologies like Hive to get and filter data.
 \item Delivered a talk to introduce developers to Machine Learning and Data Science.
 \end{tightemize}
 \sectionsep
@@ -179,7 +191,7 @@ President and founder of \textbf{Engima Quiz Society} and Head of Programming in
 \location{March 2014 – March 2015 | Delhi, India}
 \begin{tightemize}
 \item Taught 60 students in 12-30 age bracket.
-\item Started with teaching typing, moved on to internet usage and finished with programming in Java
+\item Initially taught typing, then internet usage and finished with programming in Java.
 \end{tightemize}
 \sectionsep
 
@@ -192,17 +204,17 @@ President and founder of \textbf{Engima Quiz Society} and Head of Programming in
 
 \runsubsection{Neuro-Evolution Tanks}
 \location{}
-Used genetic algorithms to train neural networks for in-game agents which collect mines on a gameboard.
+Used Genetic Algorithms to train neural networks for in-game agents which collect mines on a gameboard.
 \sectionsep
 
 \runsubsection{Webcrawler}
 \location{}
-Programmed a Java application which crawls through a Web, analyzes the HTML data, and can act like a search engine over it. Built a parser for queries entered by the user.
+Programmed a Java application which crawls through a set of websited, analyzes the HTML data, and acts as a search engine over it. Built a parser for queries entered by the user.
 \sectionsep
 
 \runsubsection{GenTris}
 \location{}
-Used Genetic algorithms is Java to create a program which is able to play Tetris.
+Used Genetic Algorithms in Java to create a program which plays Tetris.
 \sectionsep
 
 
@@ -213,16 +225,19 @@ Used Genetic algorithms is Java to create a program which is able to play Tetris
 
 \section{Community Involvement} 
 \begin{tabular}{rll}
-Machine Learning and Data Science             &  Officer. Created teaching material for and taught \\
+Machine Learning and Data Science             &  Officer. Created teaching material for \\
+                                              &  and taught Machine Learning. Organized \\
 \vspace{1 mm}
-                                              &  Machine Learning. Organized Kaggle competitions.  \\
-Turing Scholars Student Association           &  Elected official. Organized 10+ events for \\
+                                              &  Kaggle competitions.  \\
+Turing Scholars Student Association           &  Elected official. Organized 10+ events  \\
 \vspace{1 mm}
-                                              &  Turing Scholars Students. \\
-UT Computer Science Ambassador                &  Appointed by UT Computer Science department as \\
+                                              &  for Turing Scholars Students. \\
+UT Computer Science Ambassador                &  Appointed by UT Computer Science \\
 \vspace{1 mm}
-                                              &  student ambassador. \\
-UT RHC                                        &  Elected officer for Residence Hall Council \\
+                                              &  department as student ambassador. \\
+UT RHC                                        &  Elected officer for Residence Hall Council. \\
+                                              &  Organized 10+ events for students living \\
+                                              &  on campus.
 \end{tabular}
 \nocite{*}
 
