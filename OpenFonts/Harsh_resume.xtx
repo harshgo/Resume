@@ -47,6 +47,10 @@
 
 \documentclass[]{deedy-resume-openfont}
 \usepackage{fancyhdr}
+\usepackage{listings}
+\newcommand{\dollar}{\mbox{\textdollar}}
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+
  
 \pagestyle{fancy}
 \fancyhf{}
@@ -77,9 +81,10 @@
 \section{Skills}
 \subsection{Programming}
 \location{Experienced with:}
-Java \textbullet{}   Python \textbullet{} C \\
+Python \textbullet{} C++ \textbullet{} Java \textbullet{}  \\
+C \\
 \location{Exposure to:}
-C++ \textbullet{} Matlab \textbullet{} \\
+Matlab \textbullet{} Javascript \textbullet{} \\
  Verilog  \textbullet{} \LaTeX\ \\
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \subsection{Machine Learning}
@@ -98,8 +103,6 @@ Scikit-Learn\
 \location{Tech Hunt at IIT Delhi}
 \textbf{Winner among 6000 participants} for making a keyboard which can be controlled with your foot. \\
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
-\location{Academic Gold Medal}
-\textbf{Recipient} of award given by high school for 6 consecutive years of academic excellence.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -107,11 +110,12 @@ Scikit-Learn\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Misc. Projects}
-\textbf{Current Project} Converting video of chess game to textual chess notation \\
+\textbf{Image search} in Matlab \\
 \vspace{1 mm}
+\textbf{Face Detector} using Viola Jones \\
 \textbf{Pipelined processor} in Verilog \\
 \vspace{1 mm}
-\textbf{Cooperative Threads} on Multiprocessor Systems \\
+\textbf{Operating System} on Multiprocessor Systems \\
 \vspace{1 mm}
 \textbf{AI for Tetris} with Genetic Algorithms \\
 \vspace{1 mm}
@@ -159,13 +163,10 @@ English, Hindi, Marwari \\
 \location{Aug 2015 - Present | Austin, TX}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item GPA— Departmental: 3.92; Overall: 3.86
-\item Relevant Past Coursework (H=Honors):
+\item GPA— Departmental: 3.89; Overall: 3.87
+\item Relevant Past Coursework (H = Honors version of the class):
 
-\textbf{Data Structures H., Computer Architecture H., Computational Intelligence I, Linear Algebra H., Vector Calculus H., Discrete Math H.}
-\item Relevant Current Coursework:
-
-\textbf{Operating Systems H., Computational Intelligence II, Algebraic Structures}
+Data Structures H., Algorithms H., Operating Systems H., Computer Vision H., Data Mining H., Probability
 \end{tightemize}
 \sectionsep
 
@@ -176,13 +177,29 @@ English, Hindi, Marwari \\
 
 \section{Experience}
 
+\runsubsection{Google, Inc.}
+\descript{| Software Engineering Intern, Search Team }
+\location{June 2017 – August 2017 | New York City, NY}
+\begin{tightemize}
+\item \underline{Conceptualized, built and released} an internal data analysis tool used by a team of 60 engineers in Python.
+\item Learnt how to build a technical product from ground up, set up a server, take user input in design etc.
+\end{tightemize}
+\sectionsep
+
 \runsubsection{TrueCar, Inc.}
 \descript{| Machine Learning Intern }
 \location{June 2016 – August 2016 | Austin, TX}
 \begin{tightemize}
-\item Led development on Machine Learning pipeline using AdaBoost to predict the probability that a TrueCar user will buy a car- one of the most requested customer features.
-\item Employed Big Data technologies like Hive to get and filter data.
-\item Delivered a talk to introduce developers to Machine Learning and Data Science.
+\item \underline{Developed Machine Learning pipeline} using Adaboost to predict whether a user will buy a car.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{UTCS Freshman Research Initiative}
+\descript{| Peer Mentor }
+\location{Jan 2016 - May 2016 | Austin, TX}
+\begin{tightemize}
+\item Researched possible use of machine learning to \underline{automate recording} \underline{chess game moves} as part of Computational Intelligence lab.
+\item Served as mentor to five freshmen in their research.
 \end{tightemize}
 \sectionsep
 
@@ -190,8 +207,7 @@ English, Hindi, Marwari \\
 \descript{| C.S. Teacher }
 \location{March 2014 – March 2015 | Delhi, India}
 \begin{tightemize}
-\item Taught 60 students in 12-30 age bracket.
-\item Initially taught typing, then internet usage and finished with programming in Java.
+\item Taught 60 students in 12-30 age bracket. Initially taught typing, then internet usage and finished with programming in Java.
 \end{tightemize}
 \sectionsep
 
@@ -202,14 +218,14 @@ English, Hindi, Marwari \\
 
 \section{Personal Projects} 
 
-\runsubsection{Neuro-Evolution Tanks}
+\runsubsection{Chess Move Tracker}
 \location{}
-Used Genetic Algorithms to train neural networks for in-game agents which collect mines on a gameboard.
+Used convulational neural networks to build an application which tracks the movement of chess pieces on a board from sequential images.
 \sectionsep
 
 \runsubsection{Webcrawler}
 \location{}
-Programmed a Java application which crawls through a set of websited, analyzes the HTML data, and acts as a search engine over it. Built a parser for queries entered by the user.
+Programmed a Java application to crawl a set of websites, analyze the data, and act as a search engine over it. Built a parser for user entered queries.
 \sectionsep
 
 \runsubsection{GenTris}
@@ -226,18 +242,16 @@ Used Genetic Algorithms in Java to create a program which plays Tetris.
 \section{Community Involvement} 
 \begin{tabular}{rll}
 Machine Learning and Data Science             &  Officer. Created teaching material for \\
+\vspace{1 mm}
                                               &  and taught Machine Learning. Organized \\
+
+
+Turing Scholars Student Association           &  Corporate officer. Raised $\dollar$8500$\texttt{+}$ from companies. \\
 \vspace{1 mm}
-                                              &  Kaggle competitions.  \\
-Turing Scholars Student Association           &  Elected official. Organized 10+ events  \\
-\vspace{1 mm}
-                                              &  for Turing Scholars Students. \\
+                                              & Organized 10$\texttt{+}$ events for Turing Scholars Students. \\
 UT Computer Science Ambassador                &  Appointed by UT Computer Science \\
 \vspace{1 mm}
                                               &  department as student ambassador. \\
-UT RHC                                        &  Elected officer for Residence Hall Council. \\
-                                              &  Organized 10+ events for students living \\
-                                              &  on campus.
 \end{tabular}
 \nocite{*}
 
