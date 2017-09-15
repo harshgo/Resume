@@ -164,9 +164,7 @@ English, Hindi, Marwari \\
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
 \item GPA— Departmental: 3.89; Overall: 3.87
-\item Relevant Past Coursework (H = Honors version of the class):
-
-Data Structures H., Algorithms H., Operating Systems H., Computer Vision H., Data Mining H., Probability
+\item Relevant Coursework: Data Structures H., Algorithms H., Programming Languages H., Artificial Intelligence H., Operating Systems H., Computer Vision H., Data Mining H., Probability, Linear Algebra
 \end{tightemize}
 \sectionsep
 
@@ -218,6 +216,11 @@ Data Structures H., Algorithms H., Operating Systems H., Computer Vision H., Dat
 
 \section{Personal Projects} 
 
+\runsubsection{TearsOS}
+\location{}
+Worked with 50 on one Git repo to make an operating system for a multi-core system. Headed the shell and the copy-on-write teams.
+\sectionsep
+
 \runsubsection{Chess Move Tracker}
 \location{}
 Used convulational neural networks to build an application which tracks the movement of chess pieces on a board from sequential images.
@@ -225,13 +228,9 @@ Used convulational neural networks to build an application which tracks the move
 
 \runsubsection{Webcrawler}
 \location{}
-Programmed a Java application to crawl a set of websites, analyze the data, and act as a search engine over it. Built a parser for user entered queries.
+Programmed a Java application to crawl a set of websites, analyze the data, and act as a search engine over it.
 \sectionsep
 
-\runsubsection{GenTris}
-\location{}
-Used Genetic Algorithms in Java to create a program which plays Tetris.
-\sectionsep
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -249,9 +248,6 @@ Machine Learning and Data Science             &  Officer. Created teaching mater
 Turing Scholars Student Association           &  Corporate officer. Raised $\dollar$8500$\texttt{+}$ from companies. \\
 \vspace{1 mm}
                                               & Organized 10$\texttt{+}$ events for Turing Scholars Students. \\
-UT Computer Science Ambassador                &  Appointed by UT Computer Science \\
-\vspace{1 mm}
-                                              &  department as student ambassador. \\
 \end{tabular}
 \nocite{*}
 
