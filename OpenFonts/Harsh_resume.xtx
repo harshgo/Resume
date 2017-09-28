@@ -180,7 +180,7 @@ English, Hindi, Marwari \\
 \location{June 2017 – August 2017 | New York City, NY}
 \begin{tightemize}
 \item \underline{Conceptualized, built and released} an internal data analysis tool used by a team of 60 engineers in Python.
-\item Learnt how to build a technical product from ground up, set up a server, take user input in design etc.
+\item Involved deploying a server, writing a parser, writing remote service call infrastructure, writing user-authorization code etc.
 \end{tightemize}
 \sectionsep
 
